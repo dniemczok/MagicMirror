@@ -50,6 +50,18 @@ var config = {
 			module: "clock",
 			position: "top_left"
 		},
+		        {
+                module: "currentweather",
+                position: "top_right",  // This can be any of the regions.
+                                                                        // Best results in left or right regions.
+                config: {
+                        // See 'Configuration options' for more information.
+                        location: "Imielin, PL",
+                        locationID: "3097886", //Location ID from http://bulk.openweathermap.org/sample/city.list.json.gz
+                        appid: "7e5f45bf54fd3cc5d33ae04d6b0b9070" //openweathermap.org API key.
+                }
+        	},
+
 		{
 			module: "calendar",
 			header: "Daniel Niemczok",
