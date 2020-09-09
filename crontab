@@ -1,0 +1,3 @@
+@reboot	/home/pi/MagicMirror/simplehttp.sh
+0,2 * * * * /home/pi/MagicMirror/getics.sh
+@reboot	/home/pi/MagicMirror/run.sh
