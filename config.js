@@ -58,7 +58,6 @@ var config = {
 				calendars: [
 					{
 						symbol: "calendar-check",
-//						url: "http://nc.tmask.pl/index.php/apps/calendar/p/LSsM8HX35aeY9a8S"					}
 						url: "http://localhost:8888/kalendarz.ics"
 					}
 
